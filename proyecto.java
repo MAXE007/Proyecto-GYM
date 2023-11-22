@@ -55,12 +55,12 @@ public class proyecto {
 		 +"2 veces x semana                             $2000\n"
 		 +"3 veces x semana                             $3000\n"
 		 +"6 veces x semana                             $5000\n"
-		 +"¿Desea volver al menu?");
+		 +"ï¿½Desea volver al menu?");
 		 try{		
                      vol = Integer.parseInt(JOptionPane.showInputDialog(
                         "1. Si desea volver\n"
                        +"2. Si desea salir"));
-		// EXPRESIÓN 
+		// EXPRESIï¿½N 
 		switch (vol) {
 		case 1 -> menu();
 		case 2 -> JOptionPane.showMessageDialog(null, "Gracias por venir pura sangre".toUpperCase());
@@ -90,7 +90,7 @@ public class proyecto {
 		precios[2] = 3000;
 		precios[3] = 5000;
 		
-		nomusu = JOptionPane.showInputDialog("¿Nombre del que solicita el turno?: ");
+		nomusu = JOptionPane.showInputDialog("ï¿½Nombre del que solicita el turno?: ");
 		JOptionPane.showMessageDialog(null, 
                  "1. 1 dias a la semana son $400\n"
 		+"2. 2 dias a la semana son $2000\n"
@@ -98,7 +98,7 @@ public class proyecto {
 		+"4. 6 dias a la semana son $5000");
 		//i = 0;
                 try{
-                i = Integer.parseInt(JOptionPane.showInputDialog("¿Cuantos dias va a asistir?"));
+                i = Integer.parseInt(JOptionPane.showInputDialog("ï¿½Cuantos dias va a asistir?"));
                 switch (i) {
 		case 1 ->
                 {
@@ -186,7 +186,7 @@ public class proyecto {
                         +"2. Hombre"));
 		// ciclo
 		while (i>2) {
-			i = Integer.parseInt(JOptionPane.showInputDialog("Usted eligió una opción incorrecta,vuelva a seleccionar su sexo"));
+			i = Integer.parseInt(JOptionPane.showInputDialog("Usted eligiï¿½ una opciï¿½n incorrecta,vuelva a seleccionar su sexo"));
 		}
 		// funciones 
 		// se elije la rutina con la cantidad de dias y ejercicios a hacer
@@ -200,7 +200,7 @@ public class proyecto {
                
 		// ciclo
 		while (j>4) {
-			j = Integer.parseInt(JOptionPane.showInputDialog("Usted eligió una opción incorrecta,seleccione nuevamente su rutina"));
+			j = Integer.parseInt(JOptionPane.showInputDialog("Usted eligiï¿½ una opciï¿½n incorrecta,seleccione nuevamente su rutina"));
 		}
 		// condicionales
 		// mujer y 1 dia a la semana
@@ -215,7 +215,7 @@ public class proyecto {
 			+"|  nada    |   nada      |     "+rutina[6]+"             |   nada       |   nada      |   nada       | descanso |\n"
 			+"|  nada    |   nada      |     "+rutina[1]+"     |   nada       |   nada       |   nada       | descanso |\n"
 			+"------------------------------------------------------------------------------------------------------------\n"
-			+"¿desea realizar otra operacion?");
+			+"ï¿½desea realizar otra operacion?");
 			menu();
 		} else {
 			// mujer y 2 dias a la semana
@@ -228,7 +228,7 @@ public class proyecto {
 				+"|   nada   |   "+rutina[6]+"        |     nada          |   "+rutina[2]+"    |    nada       |    nada      | descanso |\n"
 				+"|   nada   |   "+rutina[1]+" |    nada          |   "+rutina[5]+"  |    nada       |    nada      | descanso |\n"
 				+"------------------------------------------------------------------------------------------------------------\n"
-				+"¿desea realizar otra operacion?");
+				+"ï¿½desea realizar otra operacion?");
 				menu();
 			} else {
 				// mujer y 3 dias a la semana
@@ -241,7 +241,7 @@ public class proyecto {
 					+"|   "+rutina[6]+"     |   nada       |    "+rutina[2]+"       |    nada       |  "+rutina[4]+"    |    nada      | descanso |\n"
 					+"| "+rutina[1]+"|   nada       |   "+rutina[5]+"     |    nada       |  "+rutina[2]+"    |    nada      | descanso |\n"
 					+"------------------------------------------------------------------------------------------------------------\n"
-					+"¿desea realizar otra operacion?");
+					+"ï¿½desea realizar otra operacion?");
 					menu();
 				} else {
 					// mujer y 6 dias a la semana
@@ -254,7 +254,7 @@ public class proyecto {
 						+"|    "+rutina[6]+"     |   "+rutina[3]+"    |      "+rutina[2]+"       |   "+rutina[4]+"   |   "+rutina[5]+"  |a eleccion| descanso |\n"
 						+"| "+rutina[1]+" |   "+rutina[4]+"  |     "+rutina[5]+"     | "+rutina[1]+"  |    "+rutina[2]+"    |a eleccion| descanso |\n"
 						+"------------------------------------------------------------------------------------------------------------\n"
-						+"¿desea realizar otra operacion?");
+						+"ï¿½desea realizar otra operacion?");
 						menu();
 					} else {
 						// hombre y 1 dia a la semana
@@ -267,7 +267,7 @@ public class proyecto {
 							+"|  nada    |    nada     |       "+rutina[3]+"       |    nada     |     nada      |    nada     | descanso |\n"
 							+"|  nada    |    nada     |       "+rutina[4]+"      |    nada     |     nada      |    nada     | descanso |\n"
 							+"------------------------------------------------------------------------------------------------------------\n"
-							+"¿desea realizar otra operacion?");
+							+"ï¿½desea realizar otra operacion?");
 							menu();
 						} else {
 							// hombre y 2 dias a la semana
@@ -280,7 +280,7 @@ public class proyecto {
 								+"|   nada   |   "+rutina[3]+"    |        nada        |   "+rutina[2]+"   |      nada     |     nada    | descanso |\n"
 								+"|   nada   |   "+rutina[4]+"   |        nada        |  "+rutina[5]+"  |     nada     |     nada    | descanso |\n"
 								+"------------------------------------------------------------------------------------------------------------\n"
-								+"¿desea realizar otra operacion?");
+								+"ï¿½desea realizar otra operacion?");
 								menu();
 							} else {
 								// hombre y 3 dias a la semana
@@ -293,7 +293,7 @@ public class proyecto {
 									+"|  "+rutina[3]+"  |     nada    |       "+rutina[2]+"      |    nada      |    "+rutina[3]+"    |     nada     | descanso |\n"
 									+"|  "+rutina[4]+" |     nada    |      "+rutina[5]+"    |    nada      |    "+rutina[0]+"   |     nada     | descanso |\n"
 									+"------------------------------------------------------------------------------------------------------------\n"
-									+"¿desea realizar otra operacion?");
+									+"ï¿½desea realizar otra operacion?");
 									menu();
 								} else {
 									// hombre y 6 dias a la semana
@@ -306,7 +306,7 @@ public class proyecto {
 										+"|  "+rutina[3]+"   |    "+rutina[4]+"   |     "+rutina[2]+"      |    "+rutina[4]+"   |    "+rutina[3]+"     |a eleccion| descanso |\n"
 										+"|  "+rutina[4]+"  |  "+rutina[1]+"  |    "+rutina[5]+"    |  "+rutina[1]+"  |    "+rutina[0]+"    |a eleccion| descanso |\n"
 										+"------------------------------------------------------------------------------------------------------------\n"
-										+"¿desea realizar otra operacion?");
+										+"ï¿½desea realizar otra operacion?");
 										menu();
 									}
 								}
@@ -340,10 +340,10 @@ public class proyecto {
                 }
                 JOptionPane.showMessageDialog(null, "Repeticiones realizadas\n"+resultado );	
          
-		JOptionPane.showMessageDialog(null,"¿Desea realizar otra operacion?".toUpperCase());
+		JOptionPane.showMessageDialog(null,"ï¿½Desea realizar otra operacion?".toUpperCase());
 		menu();
 	}
 }
 
         
-
+eeee
